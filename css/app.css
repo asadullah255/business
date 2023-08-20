@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+.logo a{
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.6;
+    color: black;
+}
+.logo{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: white;
+}
+.logo span{
+    color: rgb(92, 92, 92);
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+.header{
+    background-color: #00bbe1;
+    padding: 1rem;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    margin-left: 1rem;
+    transition: all 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #002152;
+}
+.hero{
+    background: linear-gradient(#00bbe1,rgb(3 34 80));
+    padding-top: 4.7rem;
+}
+.hero-setting p{
+    color: #f5f5f5;
+}
+.hero-setting h1{
+    width: 22rem;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 2rem;
+}
+.get a{
+    text-decoration: none;
+    background-color: #002152;
+    padding: 11px 15px 11px 15px;
+    color: white;
+    border: 0.2rem solid #002152;
+    transition: all 0.3s;
+}
+.get a:hover{
+    background-color: unset;
+    color: white;
+}
+.second a{
+    text-decoration: none;
+    background-color: unset;
+    padding: 11px 15px 11px 15px;
+    color: rgb(255, 255, 255);
+    border: 0.2rem solid #002152;
+    transition: all 0.3s;
+}
+.second a:hover{
+    background-color: #002152;
+    color: white;
+}
+.get{
+    display: flex;
+    align-items: center;
+}
+a.active{
+    color: rgb(0, 204, 255);
+}
+.search input:focus{
+    box-shadow: none;   
+}
+.search input{
+    border: none;
+    border-radius: 0.5rem;
+    color: #f1f1f1;
+}
+.search button{
+   border: 0.18rem solid white;
+   color: white;
+}
+.search button:focus{
+    box-shadow: none;
+}
+.search button:hover{
+    background-color: #002152;
+    color: white;
+    border: 0.18rem solid #002152;
+}
+.img-set{
+    animation: huhu;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes huhu {
+    50% { transform: translateY(-15px) }
+}
+.navbar-collapse{
+    text-align: center;
+}
+.fa-bars-staggered{
+    color: white;
+    font-size: 2.4rem;
+    transition: all 0.3s;
+}
+.fa-bars-staggered:hover{
+    color: #002152;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+
+/* <!-- about is start --> */
+
+.about{
+    color: #002152;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.about-setting h1{
+    width: 21rem;
+    font-weight: 800;
+}
+.year{
+    display: flex;
+    line-height: 0;
+    width: 16rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.year h1{
+    font-size: 4rem;
+}
+.But a{
+    text-decoration: none;
+    background-color: #002152;
+    padding: 11px 15px 11px 15px;
+    color: white;
+    border: 0.2rem solid #002152;
+    transition: all 0.3s;
+}
+.But{
+    display: flex;
+    align-items: center;
+}
+.But a:hover{
+    background-color: #00bbe1;
+    color: white;
+    border: 0.2rem solid black;
+}
+
+/* services is strtt */
+.services-setting h1{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.services-setting p{ 
+    margin-top: 1.5rem;
+    line-height: 0.1;
+}
+#Services{
+    margin-top: 1rem;
+    background-color: aliceblue;
+    padding: 0.5rem;
+}
+.custem-serve{
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.custem-serve:hover{
+    background-color:#002152;
+    color: white;
+}
+.custem-serve h6{
+    margin-top: 0.5rem;
+}
+.custem-serve{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+                        /* Work is start  */
+            
+#Work{
+    padding: 3rem 1rem 3rem 1rem;
+    background-color: #00122c;
+}
+.custem-work{
+    color: white;
+}
+.imagessett img{
+    border-radius: 2rem;
+}
+.imagessett{
+    position: relative;
+}
+.imagessett i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2rem;
+    background-color: #0097b2;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 3rem;
+}
+.custem-leader h1{
+    margin-bottom: 1rem;
+}
+.custem-leader p{
+    line-height: 0.6;
+}
+.inside-leader img{
+    border-radius: 1rem 1rem 0 0;
+}
+.many-eff{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.2s;
+    background-color: #002152;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.many-eff:hover .overlay{
+    opacity: 0.8;
+}
+.under{
+    height: 0.5rem;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: all 0.3s;
+    border-radius: 2rem;
+}
+@keyframes change{
+    from{
+        background-color: #002152;
+    }
+    to{
+        background-color: #fcfcfc;
+    }
+}
+.left-side{
+    position: relative;
+}
+.overlay-1{
+    position: absolute;
+    top: 1.5rem;
+    left: 0px;
+    right: 0;
+    bottom: 1.5rem;
+    opacity: 0;
+    background-color: #00122c;
+    transition: all 0.3s;
+}
+.mall{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    
+}
+.overlay-1{
+    opacity: 0.8;
+}
+.left-side img{
+    width: 100%;
+}
+.right-setting .form-floating input:focus{
+    box-shadow: none;    
+}
+.area-setting #floatingTextarea:focus{
+    box-shadow: none;    
+}
+.area-setting #floatingTextarea{
+    height: 9rem;
+}
+.send{
+   padding: 0.4rem;
+   margin-top: 1.2rem;
+   background-color: #00122c;
+   color: white;
+   border: 0.2rem solid #00122c;
+   transition: all 0.3s;
+}
+.send:hover{
+    background-color: unset;
+    color: #00122c;
+    border: 0.2rem solid #00122c;
+}
+.single p{
+    line-height: 0.5;
+}
+.single h1{
+    margin-bottom: 1.5rem;
+}
+.accordiance-set .accordion-heading{
+    background-color: white;
+    box-shadow: 0rem 0.1rem 18px 0px #dbdbdbed;
+    border: none;
+    padding: 1rem;
+}
+.accordiance-set .accordion-heading:hover{
+    background-color: rgb(245, 245, 245);
+}
+.accordiance-set .accordion-icon{
+    background-color: unset;
+}
+.accordiance-set .accordion-item{
+    border: none;
+}
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+.accordion-heading {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: all 0.3s;
+  }
+.accordion-heading:hover {
+    background-color: #e1e1e1;
+  }
+.accordion-title {
+    flex-grow: 1;
+    margin: 0;
+  }
+.accordion-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #999;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  } 
+.accordion-icon.open {
+    transform: rotate(180deg);
+  }
+.accordion-content {
+    padding: 10px;
+    display: none;
+  }
+.one{
+    background-image: url(../images/land.jpg);
+    height: 18rem;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 3rem;
+}
+.one::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0067ffd6;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.many-inside h1,h5{
+    color: white;
+}
+.many-inside h1{
+    width: 22rem;
+}
+.alls-part{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.info{
+    background-color: #002966;
+    padding: 0.7rem;
+}
+.call-us{
+    background-color: rgb(217 126 0);
+    padding: 0.9rem;
+}
+.mani-news{
+    background-color: #002152;
+
+}
+.news h1{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+.news p{
+    line-height: 0.6;
+    color: white;
+}
+.inside-one{
+    position: relative;
+}
+.upper{
+    position: absolute;
+    top: 58%;
+    left: 36%;
+    transform: translate(-50%,-20%);
+    color: white;
+}
+.inside-two-o{
+    position: relative;
+}
+.overlay-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: #0067ff;
+    cursor: pointer;
+}
+.content-2{
+    position: absolute;
+    top: 29%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    color: white;
+    
+}
+.overlay-2{
+    opacity: 0.8;
+}
+.footer{
+    padding: 3rem;
+    background-color: #00122c;
+}
+.footer-one h1{
+    color: white;
+    font-weight: 800;
+}
+.footer-one p{
+    color: white;   
+}
+.line-2{
+    display: flex;
+    flex-direction: column;
+}
+.line-2 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px 12px 0;
+    transition: all 0.3s;
+}
+.line-2 a:hover{
+    color: #999;
+}
+.line-3 h6{
+    color: rgb(145, 145, 145);
+}
+
+@media (max-width:1500px) {
+    .line-2{
+        margin-left: 5rem;
+    }    
+}
+@media (max-width:992px) {
+    .line-2{
+        margin-left: 0rem;
+    }    
+}
+@media (max-width:992px) {
+    .footer{
+        padding: 1rem;
+        background-color: #00122c;
+    }   
+}
+.last-footer{
+    padding: 1rem;
+    border-top: 0.2rem solid white;
+    background-color: #00122c;
+}
+.last h6{
+    color: #999;
+}
+#go_demo{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    padding: 0.4rem;
+    border: none;
+    background-color: #002966;
+    color: white;
+    z-index: 1000;
+    transition: all 0.3s;
+    border: 0.2rem solid #002966;
+    display: none;
+}
+#go_demo:hover{
+    border: 0.2rem solid rgb(6, 200, 226);
+}
+#load{
+    background: #ffffff url(../images/loading-waiting.gif)no-repeat center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10000;
+    background-size: 8rem;
+}
